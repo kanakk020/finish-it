@@ -1,16 +1,30 @@
-# React + Vite
+# 🪦 Finish It
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Finish It is a platform that helps developers turn their unfinished projects into public commitments and actually ship them.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Problem
 
-## React Compiler
+Every developer has a “graveyard” of unfinished projects.  
+Projects are started with excitement but abandoned due to lack of consistency and accountability.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 💡 Solution
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Finish It introduces a system where:
+- You publicly “bury” unfinished projects 🪦
+- Commit to finishing one 🔥
+- Track progress openly 👀
+- Build credibility by shipping 🚀
+
+---
+
+## ⚙️ Features
+
+- 🪦 Public Graveyard of abandoned projects  
+- 🔥 Commit to finish projects  
+- 📊 Progress tracking  
+- 👥 Accountability system  
+- 🚀 Focus on shipping, not perfection  
