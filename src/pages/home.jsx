@@ -31,33 +31,24 @@ export default function Home() {
         initial={{ opacity: 0, y: -40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, type: "spring", bounce: 0.4 }}
-        style={{ fontSize: "4.5rem", marginBottom: "0.5rem", lineHeight: 1.1 }}
+        style={{ fontSize: "4rem", marginBottom: "1rem", lineHeight: 1.1 }}
       >
         Finish What You <span className="gradient-text">Started</span> 🚀
       </motion.h1>
 
-      <motion.h2
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.2, duration: 0.8 }}
-        style={{ fontSize: "1.5rem", color: "var(--text-main)", marginBottom: "1.5rem", fontWeight: 400 }}
-      >
-        Because ideas don’t matter — <span className="gradient-text">finished products do.</span>
-      </motion.h2>
-
       <motion.p
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ delay: 0.4, duration: 0.8 }}
-        style={{ fontSize: "1.2rem", color: "var(--text-muted)", marginBottom: "3rem", maxWidth: "650px", lineHeight: 1.6 }}
+        transition={{ delay: 0.3, duration: 0.8 }}
+        style={{ fontSize: "1.4rem", color: "var(--text-muted)", marginBottom: "3rem", maxWidth: "600px" }}
       >
-        Confront your unfinished projects. Archive the abandoned ones, share what went wrong, and leverage social accountability to finally turn intention into execution.
+        Stop abandoning projects. Stop hiding in the shadows. Commit publicly and finally ship.
       </motion.p>
 
       <motion.div 
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
-        transition={{ delay: 0.6, duration: 0.5 }}
+        transition={{ delay: 0.5, duration: 0.5 }}
         style={{ display: "flex", gap: "1.5rem", flexWrap: "wrap", justifyContent: "center" }}
       >
         <Link to="/contact">
