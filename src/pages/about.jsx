@@ -26,18 +26,24 @@ export default function About() {
       <motion.h1 
         variants={itemVariants}
         className="gradient-text"
-        style={{ fontSize: "3rem", marginBottom: "2rem" }}
+        style={{ fontSize: "3rem", marginBottom: "2rem", textAlign: "center" }}
       >
-        Why Finish It Exists 🪦
+        Why Finish It Exists 🚀
       </motion.h1>
 
-      <motion.div variants={itemVariants} style={{ maxWidth: "700px", textAlign: "center" }}>
-        <p style={{ fontSize: "1.2rem", color: "var(--text-muted)", marginBottom: "1.5rem", lineHeight: 1.6 }}>
-          Every developer starts projects with excitement. But most of them never get finished. Not because of lack of skill — but lack of consistency.
+      <motion.div variants={itemVariants} style={{ maxWidth: "800px", textAlign: "center", marginBottom: "3rem" }}>
+        <p style={{ fontSize: "1.3rem", color: "var(--text-main)", marginBottom: "1.5rem", lineHeight: 1.8, fontWeight: 500 }}>
+          Finish It is a platform for developers to confront their unfinished projects and finally ship them.
         </p>
-        <p style={{ fontSize: "1.2rem", color: "var(--text-muted)", marginBottom: "3rem", lineHeight: 1.6 }}>
-          Finish It turns your unfinished projects into public commitments. When your work is visible, your mindset changes.
+        <p style={{ fontSize: "1.1rem", color: "var(--text-muted)", marginBottom: "1.5rem", lineHeight: 1.8 }}>
+          Instead of letting ideas fade away, users publicly archive abandoned projects, share what went wrong, and commit to completing one.
         </p>
+        <p style={{ fontSize: "1.1rem", color: "var(--text-muted)", marginBottom: "1.5rem", lineHeight: 1.8 }}>
+          With social accountability, visible progress, and community pressure, Finish It turns intention into execution. 
+        </p>
+        <h3 className="gradient-text" style={{ fontSize: "1.8rem", marginTop: "2rem" }}>
+          Because ideas don’t matter — finished products do.
+        </h3>
       </motion.div>
 
       <motion.div 
@@ -56,8 +62,8 @@ export default function About() {
           style={{ padding: "2rem", textAlign: "center" }}
         >
           <div style={{ fontSize: "3rem", marginBottom: "1rem" }}>🪦</div>
-          <h3 style={{ fontSize: "1.5rem", marginBottom: "1rem" }}>Public Accountability</h3>
-          <p style={{ color: "var(--text-muted)", lineHeight: 1.5 }}>Your unfinished work is visible to everyone. No more hiding behind private repos.</p>
+          <h3 style={{ fontSize: "1.5rem", marginBottom: "1rem" }}>Public Archive</h3>
+          <p style={{ color: "var(--text-muted)", lineHeight: 1.5 }}>Publish your unfinished work. Acknowledge what went wrong without hiding.</p>
         </motion.div>
 
         <motion.div 
@@ -66,8 +72,8 @@ export default function About() {
           style={{ padding: "2rem", textAlign: "center" }}
         >
           <div style={{ fontSize: "3rem", marginBottom: "1rem" }}>🔥</div>
-          <h3 style={{ fontSize: "1.5rem", marginBottom: "1rem" }}>Social Pressure</h3>
-          <p style={{ color: "var(--text-muted)", lineHeight: 1.5 }}>When people expect updates, you find a way to stay consistent and deliver.</p>
+          <h3 style={{ fontSize: "1.5rem", marginBottom: "1rem" }}>Social Accountability</h3>
+          <p style={{ color: "var(--text-muted)", lineHeight: 1.5 }}>Utilize community pressure and visible progress to stay consistent.</p>
         </motion.div>
 
         <motion.div 
@@ -77,7 +83,7 @@ export default function About() {
         >
           <div style={{ fontSize: "3rem", marginBottom: "1rem" }}>🚀</div>
           <h3 style={{ fontSize: "1.5rem", marginBottom: "1rem" }}>Ship Fast</h3>
-          <p style={{ color: "var(--text-muted)", lineHeight: 1.5 }}>Shift your focus from absolute perfection to actual completion and deployment.</p>
+          <p style={{ color: "var(--text-muted)", lineHeight: 1.5 }}>Turn intention into execution. Stop overthinking and start launching.</p>
         </motion.div>
       </motion.div>
     </motion.div>
